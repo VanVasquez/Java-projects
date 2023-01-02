@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 /*
     9. Prime number checker
         A prime number is any whole number greater than 1 whose only factors are 1 and itself.
@@ -13,6 +9,11 @@ import java.util.Scanner;
         For a slightly harder challenge, create a prime number calculator that outputs all prime numbers
         between 2 and the input number.
 */
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Main {
     private static final Scanner scn = new Scanner(System.in);
     public static void main(String[] args) {
